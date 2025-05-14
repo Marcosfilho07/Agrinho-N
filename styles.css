@@ -12,42 +12,6 @@ body {
     font-size: 1rem;
     font-family: 'Montserrat';
 }
-/* Estilo para tablets e celulares */
-@media (max-width: 768px) {
-  body {
-    font-size: 16px;
-    background-color: #d0f0ff;
-    padding: 10px;
-  }
-
-  .container {
-    padding: 10px;
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  p {
-    font-size: 1rem;
-  }
-}
-
-/* Estilo ainda mais específico para celulares pequenos */
-@media (max-width: 480px) {
-  body {
-    font-size: 14px;
-  }
-
-  h1 {
-    font-size: 1.2rem;
-  }
-
-  p {
-    font-size: 0.9rem;
-  }
-}
 
 header {
     background-color: #ffffff;
@@ -140,6 +104,8 @@ h2 {
 
 #galeria {
     background-color: #FAF4F4;
+    width: 200px; /* Largura desejada */
+    height: 150px;/* Altura desejada*/
 
 }
 

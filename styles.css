@@ -168,3 +168,98 @@ h2 {
 .alto-contraste .fundo-galeria {
     background: none;
 }
+
+/* RESPONSIVIDADE GERAL */
+
+@media (max-width: 1200px) {
+  .img-inicio {
+    width: 35rem;
+    top: 15rem;
+  }
+
+  .inicio-fundo {
+    height: auto;
+    flex-direction: column;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .img-inicio {
+    position: static;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .inicio-fundo {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    height: auto;
+  }
+
+  .esquerda-conteudo {
+    align-items: center;
+  }
+
+  #tropicalia .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #tropicalia .col-4,
+  #tropicalia .col-5 {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  nav .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-img {
+    width: 100px;
+    height: auto;
+  }
+
+  .botao-inicio {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .img-inicio {
+    width: 100%;
+  }
+
+  .rounded-pill {
+    width: 200px !important;
+    height: auto !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .inicio-fundo {
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  .img-inicio {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+}

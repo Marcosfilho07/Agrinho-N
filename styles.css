@@ -101,6 +101,9 @@ h2 {
     font-style: normal;
     color: var(--verde);
 }
+p-2{
+    text-align: justify
+}
 
 #galeria {
     background-color: #FAF4F4;

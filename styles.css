@@ -112,31 +112,6 @@ h2 {
     background-size: 180px 180px;
 }
 
-#contato {
-    background-image: url('img/4965007.jpg');
-    background-size: cover;
-    padding: 4rem 0;
-    /* Espaçamento interno para a seção de contato */
-
-}
-
-.formulario {
-    background-color: #ffffff;
-    padding: 2rem;
-    /* Espaçamento interno dentro do formulário */
-    border-radius: 10px;
-    /* Borda arredondada para o formulário */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* Sombra suave para destacar o formulário */
-    font-weight: bold;
-}
-
-.formulario button {
-    background-color: #CB6D43;
-    border: none;
-    font-weight: bold;
-}
-
 .form-control {
     background-color: #F1EDEF;
 }
@@ -171,8 +146,7 @@ h2 {
 }
 
 .alto-contraste header,
-.alto-contraste footer,
-.alto-contraste .formulario{
+.alto-contraste footer{
     background-color: var(--alto-contraste-fundo);
     color: var(--alto-contraste-texto);
 }
@@ -182,7 +156,6 @@ h2 {
 }
 
 .alto-contraste .botao-inicio,
-.alto-contraste .formulario button,
 .alto-contraste .btn-primary{
     background-color: var(--alto-contraste-link);
     color: var(--alto-contraste-fundo)

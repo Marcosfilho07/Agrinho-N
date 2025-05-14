@@ -105,15 +105,6 @@ h2 {
 #galeria {
     background-color: #FAF4F4;
 }
-#galeria.conteiner{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    z-index: 1;
-    text-align: justify
-}
-
 .fundo-galeria {
     background-size: 180px 180px;
 }
